@@ -1,0 +1,211 @@
+/* Import font family */
+/* @import url("https://fonts.cdnfonts.com/css/hvdtrial-pluto"); */
+@font-face {
+    font-family: "Pluto";
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/pluto/Pluto-Bold.otf') format("opentype");
+  }
+  
+  @font-face {
+    font-family: "Pluto";
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/pluto/Pluto-ExtraLight.otf') format("opentype");
+  }
+  
+  @font-face {
+    font-family: "Pluto";
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/pluto/Pluto-Medium.otf') format("opentype");
+  }
+  
+  @font-face {
+    font-family: "Pluto";
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/pluto/Pluto-Regular.ttf') format("truetype");
+  }
+  
+  
+  :root {
+    --bs-body-font-family: "Pluto", sans-serif;
+  }
+
+
+
+  .color {
+    --bs-body-bg:#fdebd0 !important;
+    /* font-family: 'HvDTrial Pluto', sans-serif; */
+  }
+  .profile-card {
+    background-color: #fef5e7;
+    padding: 125px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350%;
+    height: 494px;
+}
+.profile-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.profile-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.profile-card p {
+    font-size: 16px;
+    color: #666;
+}
+.social-icons a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+}
+.intro-section{
+    margin-left: 320px;
+    display: grid;
+}
+.intro-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.intro-section p {
+    font-size: 18px;
+    /* margin-top: 20px; */
+    color: #555;
+}
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+.btn-outline-dark {
+    border: 2px solid #000;
+}
+
+.wrap{
+    width: 450px;
+    height: 100%;
+position: absolute;
+    background: antiquewhite;
+}
+.cadre{
+    margin-left: 180px;
+    margin-top: 10rem!important;
+}
+
+.footer{
+    padding-top: 771px;
+}
+.lignes1, .lignes2{
+    margin-left: 0px;
+}
+.socials{
+    padding-left: 59px
+}
+.social-icons a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: black;
+}
+.intro-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.intro-section h3{
+    text-align: left;
+    /* padding: 0px 0px 0px; */
+    margin: 0px -432px 0px 0px;
+}
+.texte{
+    margin-left: 13px;
+    margin-right: -621px;
+    position: absolute;
+    margin-top: 226px;
+}
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+.btn-outline-dark {
+    border: 2px solid #000;
+}
+footer {
+    background-color: #f6f1eb !important;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666 !important;
+}
+footer a {
+    color: #333;
+    margin: 0 15px;
+}
+footer a:hover {
+    color: #007bff;
+}
+.tous-services img{
+    width: 78px;
+    height: 73px;
+}
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.cards img{
+    width: 60%;
+}
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.card h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.card p {
+    font-size: 16px;
+    color: #555;
+}
+.skills, .languages {
+    margin-top: 30px;
+}
+.skills-list, .languages-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.skills-list li, .languages-list li {
+    list-style: none;
+}
+.square {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #007bff;
+    margin-right: 10px;
+}
+
+
+
+
+
+
