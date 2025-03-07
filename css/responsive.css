@@ -1,0 +1,38 @@
+@media screen and (max-width: 1024px) {
+.profile-card{
+    width: 100%;
+}
+.intro-section h3 {
+    text-align: left;
+    /* padding: 0px 0px 0px; */
+     margin: 0px 0px 0px 0px; 
+}
+.intro-section {
+    margin-left: -162px;
+    display: grid
+;
+    text-align-last: left;
+}
+
+.wrap {
+
+    height: 132%;
+}
+.texte {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.footer {
+    padding-top: 1080px;
+}
+
+.navbar{
+    width: 160%;
+}
+}
+
+
+
+  @media screen and (max-width: 768px) {
+
+}
