@@ -1,41 +1,104 @@
+/* Media Query pour les tablettes */
 @media screen and (max-width: 1024px) {
-    .profile-card{
-        width: 96%;
-        justify-items: start;
-        margin-left: -61px;
+    .profile-card {
+        width: 100%; /* Ajuste la largeur pour éviter le débordement */
+        padding: 50px; /* Moins d’espace pour éviter un bloc trop grand */
+        margin-left: 0;
     }
-    .intro-section h3 {
-        text-align: left;
-        /* padding: 0px 0px 0px; */
-         margin: 0px 0px 0px 0px; 
-    }
+    
     .intro-section {
-        margin-left: -162px;
-        display: grid;
-        text-align-last: left;
-        margin-top: 53px;
+        margin-left: 0;
+        text-align: center; /* Centrer les textes */
     }
-    
-    .wrap {
-    
-        height: 153%;
+
+    .intro-section h3 {
+        margin: 10px 0;
     }
+
     .texte {
-        /* margin-left: 0px; */
-        margin-right: -132px;
-        text-align: justify;
+        margin-right: 0;
+        position: static; /* Pour éviter les chevauchements */
+        /* text-align: justify; */
+        margin-top: 10px;
     }
+
+    .wrap {
+        width: 100%;
+        height: auto;
+        background: antiquewhite;
+    }
+
     .footer {
-        padding-top: 1258px;
+        padding-top: 200px; /* Ajuster selon le contenu */
     }
-    
-    .navbar{
-        width: 160%;
+
+    .navbar {
+        width: 100%; /* Garder la barre de navigation dans les limites de l'écran */
     }
+}
+
+/* Media Query pour les mobiles */
+@media screen and (max-width: 768px) {
+    .profile-card {
+        width: 90%;
+        padding: 30px;
+        margin: auto;
+        text-align: center;
     }
-    
-    
-    
-      @media screen and (max-width: 768px) {
-    
+
+    .profile-card img {
+        width: 120px; /* Réduire la taille de la photo */
+        height: 120px;
     }
+
+    .intro-section h1 {
+        font-size: 32px; /* Réduire la taille du texte */
+    }
+
+    .intro-section h3 {
+        font-size: 18px;
+    }
+
+    .btn-lg {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .cadre {
+        margin-left: 0;
+        margin-top: 5rem;
+        width: 100%;
+    }
+
+    .footer {
+        padding-top: 1070px;
+        text-align: center;
+    }
+    .footerr {
+        margin-top: -2rem !important;
+    }
+    .socials {
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .socials a {
+        font-size: 18px;
+        margin: 0 5px;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+}
