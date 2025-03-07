@@ -1,6 +1,8 @@
 @media screen and (max-width: 1024px) {
     .profile-card{
-        width: 100%;
+        width: 96%;
+        justify-items: start;
+        margin-left: -61px;
     }
     .intro-section h3 {
         text-align: left;
@@ -24,7 +26,7 @@
         text-align: justify;
     }
     .footer {
-        padding-top: 1345px;
+        padding-top: 1258px;
     }
     
     .navbar{
